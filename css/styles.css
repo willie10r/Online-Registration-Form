@@ -1,6 +1,32 @@
+/* 320px for mobile */
 h1,
 h2,
 h3,
 p {
     font-family: Roboto;
+}
+h1 {
+    background-color: darkcyan;
+    margin: 0px;
+    padding: 24px;
+    text-align: center;
+   }
+body {
+  margin: 0px;
+
+}
+p {
+  border-bottom: solid darkcyan 5px;
+  margin-bottom: 5px; 
+}
+aside {
+  border-bottom: solid darkcyan 2px;
+  margin:auto 15px
+}
+h2,
+p {
+  text-align: center;
+}
+@media (min-width: 768px) {
+
 }
