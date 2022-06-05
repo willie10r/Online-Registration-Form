@@ -6,6 +6,7 @@ p {
     font-family: Roboto;
 }
 h1 {
+    
     background-color: darkcyan;
     margin: 0px;
     padding: 24px;
@@ -21,8 +22,33 @@ body {
 }
 aside {
   border-bottom: solid darkcyan 2px;
-  margin:auto 15px
+  margin:0 15px 0;
 }
+form {
+    margin: 0px 10px 0px;
+}
+.contact_container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+}
+
+#name,
+#email,
+#phone-number,
+#city,
+#state,
+#zip-code {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 90vw;
+
+}
+
 h2,
 p {
   text-align: center;
