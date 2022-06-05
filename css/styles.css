@@ -62,7 +62,10 @@ form {
 }
 #zip-code {
     width: 125px;
+    margin-right: 150px;
+    
 }
+
 .nl {
  padding: 0;
 }
