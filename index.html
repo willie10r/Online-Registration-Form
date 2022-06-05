@@ -20,20 +20,34 @@
     <main>
       <aside>
         <h2>Signup for our newsletter</h2>
-        <p>Get the latest news on how your code is doing right in your inbox</p>
+        <p class="bbox">
+          Get the latest news on how your code is doing right in your inbox
+        </p>
       </aside>
       <form action="index.html" method="post">
         <section>
           <h3>Contact Information</h3>
+          <label>Full Name</label>
           <input type="text" id="name" name="user_name" />
+          <label>Email Adress</lable>
           <input type="text" id="email" name="user_email" />
+          <label>Phone Number</label>
           <input type="number" id="phone-number" name="user_phone-number" />
+          <label>City</label>
           <input type="text" id="city" name="user_city" />
+          <label>State</label>
           <input type="text" id="state" name="user_state" />
+          <label>Zip Code</label>
           <input type="number" id="zip-code" name="user_zip-code" />
         </section>
         <section>
           <h3>Newsletter</h3>
+          <p>Select the newsletter you would like to recive.</p>
+          <input type="checkbox" id="html_news" name="html_newsletter" />
+          <label>HTML News</label>
+          <input type="checkbox" id="plain_text" name="plain_text_newsletter"/>
+          <label>Plain Text</label>
+          <p>Other topic you'd like to hear about</p>
         </section>
       </form>
     </main>
