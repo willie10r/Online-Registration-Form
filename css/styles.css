@@ -9,8 +9,8 @@ ul {
     list-style-type: none;
 }
 h1 {
-    
-    background-color: darkcyan;
+    color: antiquewhite;
+    background-color: rgb(26, 62, 78);
     margin: 0px;
     padding: 24px;
     text-align: center;
@@ -21,16 +21,16 @@ body {
 
 }
 .bbox {
-  border-bottom: solid darkcyan 5px;
+  border-bottom: solid rgb(26, 62, 78) 5px;
   margin-bottom: 5px; 
   padding-bottom: 30px;
 }
 .bbox-2 {
-  border-top: solid darkcyan 2px;
+  border-top: solid rgb(26, 62, 78) 2px;
   padding-top: 30px;
 }
 aside {
-  border-bottom: solid darkcyan 2px;
+  border-bottom: solid rgb(26, 62, 78) 2px;
   margin:0 15px 0;
 }
 form {
@@ -87,7 +87,7 @@ p {
   margin-bottom: 25px;
 }
 button {
-    background-color: aqua;
+    background-color: rgb(26, 62, 78);
     color: antiquewhite;
     border-radius: 1em;
     height: 75px;
