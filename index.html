@@ -38,29 +38,37 @@
           <li><input type="text" id="city" name="user_city" /></li>
           <li class="li-main li-5">
           <label>State</label></li>
-          <li><input type="text" id="state" name="user_state" /></li>
+          <li><input type="text" id="state" name="user_state" />
+          </li>
           <li class="li-main li-6">
           <label>Zip Code</label></li>
           <li><input type="number" id="zip-code" name="user_zip-code" /></li>
           </ul>
-        <section>
-          <h3>Newsletter</h3>
-          <p>Select the newsletter you would like to recive.</p>
-          <input type="checkbox" id="html_news" name="newsletter"/>
-          <label>HTML news</label><br>
-          <input type="checkbox" id="css_news" name="newsletter"/>
-          <label>CSS News</label><br>
-          <input type="checkbox" id="jave_s_news" name="newsletter"/>
-          <labe>Javascript News</labe>
-          <p>Newsletter Format</p>
+          <h3 class="bbox-2">Newsletter</h3>
+          <p class="words">Select the newsletter you would like to recive.</p>
+        <ul class="nl">
+          <li class="rad"><input type="checkbox" id="html_news" name="newsletter"/>
+          <label >HTML news</label></li>
+          <li class="rad"><input type="checkbox" id="css_news" name="newsletter"/>
+          <label >CSS News</label></li>
+          <li class="rad"><input type="checkbox" id="jave_s_news" name="newsletter"/>
+          <label >Javascript News</label></li>
+        </ul>
+        <p class="words">Newsletter Format</p>
+        <ul class="nlf">
+          <li class="rad">
           <input type="radio" id="html" name="letter_format" />
-          <label>HTML</label><br>
+          <label >HTML</label></li>
+          <li class="rad">
           <input type="radio" id="plain_text" name="letter_format"/>
-          <label>Plain Text</label>
-          <p>Other topic you'd like to hear about</p>
-        </section>
+          <label >Plain Text</label></li>
+        </ul>
+        <p class="words">Other topic you'd like to hear about</p>
+        <input type="text" id="other_topic" name="extra"/>
+        <button type="button" ><p>Sign Up</p></button>
       </form>
+
     </main>
-    <footer></footer>
+    <footer> <p> &copy;2022 Willie Morris </p></footer>
   </body>
 </html>
