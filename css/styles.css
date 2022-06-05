@@ -96,4 +96,27 @@ button {
 }
 @media (min-width: 768px) {
 
+ #name,
+#email,
+#phone-number,
+#city,
+#state,
+#zip-code,
+#other_topic,
+#button,
+.bbox,
+.bbox-2,
+aside {
+   width: 650px;
+
+}
+#zip-code {
+    width: 125px;
+}
+aside,
+.bbox-2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 }
