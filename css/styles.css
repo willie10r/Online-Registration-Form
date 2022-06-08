@@ -17,8 +17,6 @@ h1 {
    }
 body {
   margin: 0px;
- 
-
 }
 .bbox {
   border-bottom: solid rgb(26, 62, 78) 5px;
@@ -155,12 +153,6 @@ aside,
   width: 35em;
   margin-left: auto;
   margin-right: 0;
-
-}
-#email {
-  margin-left: auto;
-  margin-right: 40px;
-  
 }
 
 }
