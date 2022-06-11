@@ -40,7 +40,7 @@
             <li class="li-main li-2">
               <label for="email">Email Adress</label>
               <input
-                type="text"
+                type="email"
                 placeholder="Required"
                 id="email"
                 name="user_email"
@@ -145,12 +145,13 @@
               <label for="pla_tex">Plain Text</label>
             </li>
           </ul>
+
+          <p class="words">Other topic you'd like to hear about</p>
+          <div id="button_container">
+            <textarea type="textarea" id="other_topic" name="extra"></textarea>
+            <button type="button" id="button">Sign Up</button>
+          </div>
         </fieldset>
-        <p class="words">Other topic you'd like to hear about</p>
-        <div id="button_container">
-          <input type="text" id="other_topic" name="extra" />
-          <button type="button" id="button">Sign Up</button>
-        </div>
       </form>
     </main>
     <footer><p>&copy;2022 Willie Morris</p></footer>
