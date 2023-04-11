@@ -1,4 +1,4 @@
-# Photo-gallery-project
+# Online-Registration-Form
 
 ##summery<br/>
 On this project I was learning about HTML forms. I made a registration site comprized of mady form fields put togeter in a way that immitates a application.
